@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FandMC 服务器</title>
     <meta name="description" content="FandMC 是一个 Minecraft 服务器，旨在提供极致生电体验的服务器软件。">
-    <link rel="icon" href="https://leavesmc.org/favicon.ico">
-    <link rel="stylesheet" href="https://leavesmc.org/_next/static/css/909197e0b7ed011e.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="css.css">
 </head>
 <body>
     <div id="__next">
