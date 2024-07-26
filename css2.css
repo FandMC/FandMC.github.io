@@ -1,0 +1,62 @@
+.SoftwareDownloadButton_menu__nT7zK>:not([hidden])~:not([hidden]) {
+	--tw-divide-y-reverse: 0;
+	border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
+	border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
+	--tw-divide-opacity: 1;
+	border-color: rgba(229,231,235,var(--tw-divide-opacity))
+}
+
+.SoftwareDownloadButton_menu__nT7zK {
+	--tw-bg-opacity: 1;
+	background-color: rgba(248,250,255,var(--tw-bg-opacity));
+	--tw-border-opacity: 1;
+	border-color: rgba(229,231,235,var(--tw-border-opacity));
+	border-radius: .375rem;
+	border-width: 1px;
+	margin-top: .5rem;
+	position: absolute;
+	--tw-shadow: 0 10px 15px -3px rgb(0 0 0/0.1),0 4px 6px -4px rgb(0 0 0/0.1);
+	--tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color);
+	box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+	z-index: 40
+}
+
+@media (prefers-color-scheme:dark) {
+	.SoftwareDownloadButton_menu__nT7zK>:not([hidden])~:not([hidden]) {
+		--tw-divide-opacity: 1;
+		border-color: rgba(31,41,55,var(--tw-divide-opacity))
+	}
+
+	.SoftwareDownloadButton_menu__nT7zK {
+		--tw-bg-opacity: 1;
+		background-color: rgba(24,26,27,var(--tw-bg-opacity));
+		--tw-border-opacity: 1;
+		border-color: rgba(31,41,55,var(--tw-border-opacity))
+	}
+}
+
+.SoftwareBuildChanges_commit__96kpW {
+	font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+	margin-right: .25rem;
+	--tw-text-opacity: 1;
+	color: rgba(5,150,105,var(--tw-text-opacity))
+}
+
+@media (prefers-color-scheme:dark) {
+	.SoftwareBuildChanges_commit__96kpW {
+		--tw-text-opacity: 1;
+		color: rgba(16,185,129,var(--tw-text-opacity))
+	}
+}
+
+.SoftwareBuildChanges_issue__WaV3Y {
+	--tw-text-opacity: 1;
+	color: rgba(5,150,105,var(--tw-text-opacity))
+}
+
+@media (prefers-color-scheme:dark) {
+	.SoftwareBuildChanges_issue__WaV3Y {
+		--tw-text-opacity: 1;
+		color: rgba(16,185,129,var(--tw-text-opacity))
+	}
+}
